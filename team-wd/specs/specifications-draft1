@@ -1,0 +1,59 @@
+Specifications for Whack-a-Prof
+Version 0.1
+Prepared by Ada Maldonado 
+Brooklyn College
+November 2021
+
+1.	Introduction
+  1.1	Purpose 
+      The purpose of this document is to present a detailed description of the open-source software Whack-a-Prof. It will explain the purpose and features of the software, the interfaces of the software, what the software will do and the constraints under which it must operate. This document is intended for users of the software.
+  1.2	Document Conventions
+      This document was created based on the IEEE template for System Requirement Specification Documents.
+  1.3	Intended Audience
+      Typical Users, such as students, who want to use Whack-a-Prof for entertainment purposes.
+  1.4	Product Scope
+      Whack-a-Prof is a game that people can use to enjoy a silly version of the classic Whack-a-mole game. Users can interact with the game by clicking on a character on a certain period where each time you click on a character, you win a point.
+  1.5	References
+      IEEE Template for System Requirement Specification Documents: https://goo.gl/nsUFwy
+      
+2.	Overall Description
+  2.1	Product Perspective
+      Whack-a-Prof was developed for a class project in which each group of students must create a game. It was developed to run on Windows, Mac OS X and Linux.
+  2.2	Product Functions
+      •	Score: Displays the score of the player.
+      •	Holes: Displays holes on the ground.
+      •	Characters: Displays 9 different characters.
+      •	Timer: Displays the timer of a single game.
+
+      •	Interval: Displays a random appearance of one the characters.
+      •	Click: Allows you to click on the characters.
+      •	Remove: Removes the character.
+
+      •	Timeout: Stops the game and displays the time is over.
+      •	Music: Displays audio.
+      •	Play: Plays the audio.
+      •	Pause: Pauses the audio.
+  2.3 User Classes and Characteristics
+      Typical Users, such as students, who want to use Whack-A-Prof for entertainment purposes.
+  2.4	Operating Environment
+      •	Windows 7
+      •	Windows 8
+      •	Windows 10
+      •	Windows 11
+      •	Mac OS X
+      •	Linux
+  2.5	Design and Implementation Constraints
+      Whack-A-Prof is developed in JavaScript, HTML and CSS. It uses VSCode for its visualization engine and has been built on top of the GitHub Platform. 
+  2.6	User Documentation
+      https://github.com/cisc3140-g2-fall2021
+  2.7	Assumptions and Dependencies
+      Whack-A-Mole is developed in JavaScript, HTML, and CSS; therefore, it needs to be available on the user’s system.
+
+3.	External Interface Requirements
+  3.1	User Interfaces
+      <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
+  3.2	Hardware Interfaces
+      The minimum hardware requirements of Whack-A-Prof are a 500-Megahertz CPU and 128 megabytes of RAM.
+  3.3	Software Interfaces
+      Whack-A-Mole requires JavaScript, HTML and CSS to be in your system.
+  
